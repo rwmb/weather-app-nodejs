@@ -1,6 +1,6 @@
 const request = require('request');
 
-var apiKey = 'AIzaSyClfPAH-QPMda_6yDYCLXrbYVBgj2_uD6M';
+var apiKey = 'YOUR_API_KEY_HERE';
 
 var geocodeAddress = (address) => {
     let promise = new Promise((resolve, reject) => {
