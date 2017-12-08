@@ -14,8 +14,8 @@ const argv = yargs
     .alias('help', 'h')
     .argv;
 
-var geocodeKey = 'AIzaSyClfPAH-QPMda_6yDYCLXrbYVBgj2_uD6M';
-var forecastKey = 'd70c079484c3149df52ee6e61a29db2b';
+var geocodeKey = 'YOUR_GEOCODE_API_HERE';
+var forecastKey = 'YOUR_FORECAST_API_HERE';
 var addressURI = encodeURIComponent(argv.address);
 var geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?key=${geocodeKey}&address=${addressURI}`;
 
